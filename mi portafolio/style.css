@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.content_header{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: #002e34;
+}
+
+.text_img{
+  display: flex;
+  margin: auto;
+}
+
+.portafolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+  font-size: 26px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: wheat;
+}
+
+.portafolio{
+  width: 50px;
+}
+
+.content_nav{
+  display: flex;
+  justify-content: end;
+  margin: auto;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+.content_a{
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 700;
+  color: wheat;
+}
+
+.content_a:hover{
+  color: lightcoral;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.github{
+  margin: auto;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor_boton{
+  margin: auto;
+  display: flex;
+}
+
+.boton{
+  margin-left: 30px;
+  background-color: chocolate;
+  color: wheat;
+  width: 100px;
+  border: none;
+  border-radius: 15px 5px;
+  height: 30px;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+}
+
+.boton:hover{
+  color: black;
+  background-color: lightseagreen;
+}
+
+@media (max-width: 768px) {
+  .content_header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+   .content_nav {
+      margin-top: 10px;
+  }
+
+  .boton_img {
+      margin-top: 10px;
+  }
+
+  section{
+      margin-top: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+}
